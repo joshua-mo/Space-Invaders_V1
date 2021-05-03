@@ -1,0 +1,14 @@
+#pragma once
+
+namespace Game {
+    const char* PROJECT_NAME = "@PROJECT_NAME@";
+    const char* PROJECT_VERSION = "@PROJECT_VERSION@";
+    const char* PROJECT_VERSION_MAJOR = "@PROJECT_VERSION_MAJOR@";
+    const char* PROJECT_VERSION_MINOR = "@PROJECT_VERSION_MINOR@";
+    const char* PROJECT_VERSION_PATCH = "@PROJECT_VERSION_PATCH@";
+
+    const int ScreenWidth = 600;
+    const int ScreenHeight = 1000;
+
+    //#define GAME_START_FULLSCREEN
+}
